@@ -47,6 +47,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01C14696237EDB4E0010B7A4 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = ../lib/openssl/mac/libcrypto.a; sourceTree = "<group>"; };
 		08587CCF13AA7F2A00CBAC32 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
 		08587CD113AA88FD00CBAC32 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preferences.xib; path = Nibs/Preferences.xib; sourceTree = "<group>"; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		29B97314FDCFA39411CA2CEA /* AquaticPrimeDeveloper */ = {
 			isa = PBXGroup;
 			children = (
+				01C14696237EDB4E0010B7A4 /* libcrypto.a */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -427,14 +429,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MACOSX_DEPLOYMENT_TARGET_i386 = 10.5;
-				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
-				OTHER_LDFLAGS = "-lcrypto";
+				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
 				PRODUCT_NAME = "AquaticPrime Developer";
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
 			name = Development;
 		};
@@ -458,16 +458,14 @@
 				GENERATE_PKGINFO_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MACOSX_DEPLOYMENT_TARGET_i386 = 10.5;
-				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
 				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "-lcrypto";
+				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
 				PRODUCT_NAME = "AquaticPrime Developer";
 				WARNING_CFLAGS = "-Wno-unused";
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
 			name = Deployment;
 		};
@@ -483,14 +481,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MACOSX_DEPLOYMENT_TARGET_i386 = 10.5;
-				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
-				OTHER_LDFLAGS = "-lcrypto";
+				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
 				PRODUCT_NAME = "AquaticPrime Developer";
 				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
 			};
 			name = Default;
 		};

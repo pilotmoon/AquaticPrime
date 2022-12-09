@@ -10,5 +10,6 @@
 
 int main(int argc, char *argv[])
 {
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"NSRequiresAquaSystemAppearance"];
     return NSApplicationMain(argc,  (const char **) argv);
 }

@@ -432,7 +432,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
@@ -464,7 +464,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
@@ -489,7 +489,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_LDFLAGS = "$(SRCROOT)/../lib/openssl/mac/libcrypto.a";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aquaticmac.aquaticPrimeDeveloper;
 				PRODUCT_NAME = "AquaticPrime Developer";

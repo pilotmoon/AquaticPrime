@@ -10,3 +10,9 @@ Notes:
 - Intel target only (for now).
 - Includes libcrypto built-in.
 - Dark mode is turned off.
+
+## Installation
+
+The latest pre-built binary can be installed using:
+
+`brew install --cask pilotmoon/tap/aquaticprime`
